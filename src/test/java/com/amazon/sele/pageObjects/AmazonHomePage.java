@@ -12,6 +12,7 @@ public interface AmazonHomePage {
 	 * */
 	
 	By hamburgerMenu=By.id("nav-hamburger-menu");
+	By closeBtn=By.xpath("//body/div[@id='hmenu-container']/div[@id='hmenu-canvas-background']/div[1]");
 	By shopByDepartmentMenuTV=By.xpath("//div[contains(text(),'TV, Appliances, Electronics')]");
 	By signInHeader=By.xpath("//b[contains(text(),'Hello, Sign in')]");
 	By searchBox=By.id("twotabsearchtextbox");
