@@ -26,17 +26,13 @@
 1. Please extract the project at your desired path.
 2. Go to `src\test\resources\config\config.properties` file and update configurations. 
 3. Open the command prompt and go to the `<Project Directory>\src\main\drivers`.
-4. Run command `java -jar selenium-server-standalone-3.141.59.jar -role hub` to start Selenium Hub
+4. Run command `java -jar selenium-server-standalone-3.11.0.jar -role hub` to start Selenium Hub
 Note : selenium-server-standalone-3.141.59.jar works with Chrome Version 74 and below.
 5. Open browser and navigate to `http://localhost:4444/grid/console` - to see Hub is up and running with a few browser instances.
 6. Open another command prompt from same machine and navigate to `<Project Directory>\src\main\drivers`
-7. Run command `java -jar selenium-server-standalone-3.141.59.jar -role node -hub http://localhost:4444/grid/register` to register nodes. 
+7. Run command `java -jar selenium-server-standalone-3.11.0.jar -role node -hub http://10.0.0.195:4444/grid/register` to register nodes. 
 8. Run the command `mvn clean install -DsuiteXmlFile=ParallelTestSuite.xml`
 9. All the automated test cases in the testNG.xml will be executed.
-
-## Installing
-
-Refer to the documents attached in `referenceDocument` Folder
 
 		
 ## To view Report 

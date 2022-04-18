@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel - RegressionSuite" parallel="tests">
+
+	<listeners>
+		<listener
+			class-name="com.amazon.sele.testListners.TestListener" />
+	</listeners>
+
+
+
+	<test name="Test Application - Chrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="com.amazon.sele.testcases.Test_AmazonApp" />
+		</classes>
+	</test>
+
+	<test name="Test Application - Chrome New">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="com.amazon.sele.testcases.Test_AmazonApp" />
+		</classes>
+	</test>
+
+
+</suite> <!-- Suite -->
