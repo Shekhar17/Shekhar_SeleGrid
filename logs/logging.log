@@ -1,0 +1,308 @@
+2022-04-18 05:53:37 INFO  ReportFactory:64 - HTML report created : /Users/shekharkapil/Documents/Shekhar_SelGrid/Shekhar_SeleGrid/current_test_results/2022-04-18 05-53-37/chrome_report.html
+2022-04-18 05:53:56 INFO  ReportFactory:161 - New testcase :Test_Validate_HomePage
+2022-04-18 05:53:56 INFO  ReportFactory:79 - Testcase Description : Validate Amazon Application Home page
+2022-04-18 05:54:06 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:54:09 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[text()='Amazon Pay']]
+2022-04-18 05:54:09 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:54:09 INFO  ReportFactory:102 - Test_Validate_HomePage PASSED 
+2022-04-18 05:54:09 INFO  ReportFactory:161 - New testcase :Test_Validate_HamburgerMenu
+2022-04-18 05:54:09 INFO  ReportFactory:79 - Testcase Description : Validate Hamburger Menu Option Shop By Department
+2022-04-18 05:54:14 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:54:15 INFO  ReportFactory:79 - WebElement Present : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:54:15 INFO  ReportFactory:79 - WebElement Present : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:54:24 INFO  ReportFactory:79 - WebElement Clicked : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:54:25 INFO  ReportFactory:79 - WebElement Present : closeBtn [By.xpath: //body/div[@id='hmenu-container']/div[@id='hmenu-canvas-background']/div[1]]
+2022-04-18 05:54:25 INFO  ReportFactory:79 - WebElement Present : shopByDepartmentMenuTV [By.xpath: //div[contains(text(),'TV, Appliances, Electronics')]]
+2022-04-18 05:54:25 INFO  ReportFactory:79 - WebElement Clicked : shopByDepartmentMenuTV [By.xpath: //div[contains(text(),'TV, Appliances, Electronics')]]
+2022-04-18 05:54:26 INFO  ReportFactory:79 - WebElement Present : signInHeader [By.xpath: //b[contains(text(),'Hello, Sign in')]]
+2022-04-18 05:54:26 INFO  ReportFactory:102 - Test_Validate_HamburgerMenu PASSED 
+2022-04-18 05:54:26 INFO  ReportFactory:161 - New testcase :Test_Validate_ClickSignIn
+2022-04-18 05:54:26 INFO  ReportFactory:79 - Testcase Description : Validate Login Page Amazon Application
+2022-04-18 05:54:28 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:54:29 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:54:29 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:54:30 INFO  ReportFactory:79 - WebElement Clicked : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:54:30 INFO  ReportFactory:79 - Current Page title : Amazon Sign In matches with Amazon Sign In
+2022-04-18 05:54:30 INFO  ReportFactory:79 - WebElement Present : mobileEmailTxtBox [By.id: ap_email]
+2022-04-18 05:54:30 INFO  ReportFactory:79 - WebElement Present : continueButton [By.id: continue]
+2022-04-18 05:54:30 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:54:30 INFO  ReportFactory:79 - WebElement Present : needHelpLink [By.xpath: //span[contains(text(),'Need help?')]]
+2022-04-18 05:54:30 INFO  ReportFactory:102 - Test_Validate_ClickSignIn PASSED 
+2022-04-18 05:54:30 INFO  ReportFactory:161 - New testcase :Test_Validate_AmazonSignUp
+2022-04-18 05:54:30 INFO  ReportFactory:79 - Testcase Description : Validate Create Account Amazon Application
+2022-04-18 05:54:32 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:54:34 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:54:35 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:54:36 INFO  ReportFactory:79 - WebElement Clicked : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:54:36 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:54:36 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:54:37 INFO  ReportFactory:79 - WebElement Clicked : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:54:38 INFO  ReportFactory:79 - WebElement Present : yourNameTxtbox [By.id: ap_customer_name]
+2022-04-18 05:54:38 INFO  ReportFactory:79 - WebElement Present : passwordTxtbox [By.id: ap_password]
+2022-04-18 05:54:38 INFO  ReportFactory:79 - WebElement Present : continueButton [By.xpath: //input[@id='continue' and @type='submit']]
+2022-04-18 05:54:38 INFO  ReportFactory:102 - Test_Validate_AmazonSignUp PASSED 
+2022-04-18 05:54:38 INFO  ReportFactory:161 - New testcase :Test_Validate_AmazonSearch
+2022-04-18 05:54:38 INFO  ReportFactory:79 - Testcase Description : Validate Search keyword
+2022-04-18 05:54:40 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:54:43 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:54:44 INFO  ReportFactory:79 - WebElement Present : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:54:48 INFO  ReportFactory:79 - fossil watches for men latest enterted in WebElement : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:54:48 INFO  ReportFactory:79 - WebElement Present : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:55:02 INFO  ReportFactory:79 - Enter key pressed in WebElement : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:55:03 INFO  ReportFactory:79 - WebElement Present : searchedText [By.xpath: (//span[@class='rush-component']//span[contains(text(),'fossil watches for men latest')])[1]]
+2022-04-18 05:55:03 INFO  ReportFactory:102 - Test_Validate_AmazonSearch PASSED 
+2022-04-18 05:55:04 INFO  ReportFactory:147 - HTML report saved for browser : chrome at /Users/shekharkapil/Documents/Shekhar_SelGrid/Shekhar_SeleGrid/current_test_results/2022-04-18 05-53-37
+2022-04-18 05:56:59 INFO  ReportFactory:74 - ZIP file created for folder : /Users/shekharkapil/Documents/Shekhar_SelGrid/Shekhar_SeleGrid/current_test_results/2022-04-18 05-53-37
+2022-04-18 05:56:59 INFO  ReportFactory:64 - HTML report created : /Users/shekharkapil/Documents/Shekhar_SelGrid/Shekhar_SeleGrid/current_test_results/2022-04-18 05-56-59/chrome_report.html
+2022-04-18 05:56:59 INFO  ReportFactory:64 - HTML report created : /Users/shekharkapil/Documents/Shekhar_SelGrid/Shekhar_SeleGrid/current_test_results/2022-04-18 05-56-59/chrome_report.html
+2022-04-18 05:57:06 INFO  ReportFactory:161 - New testcase :Test_Validate_HomePage
+2022-04-18 05:57:06 INFO  ReportFactory:79 - Testcase Description : Validate Amazon Application Home page
+2022-04-18 05:57:06 INFO  ReportFactory:161 - New testcase :Test_Validate_HomePage
+2022-04-18 05:57:07 INFO  ReportFactory:79 - Testcase Description : Validate Amazon Application Home page
+2022-04-18 05:57:12 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:57:13 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:57:15 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[text()='Amazon Pay']]
+2022-04-18 05:57:15 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[text()='Amazon Pay']]
+2022-04-18 05:57:16 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:57:16 INFO  ReportFactory:102 - Test_Validate_HomePage PASSED 
+2022-04-18 05:57:16 INFO  ReportFactory:161 - New testcase :Test_Validate_HamburgerMenu
+2022-04-18 05:57:16 INFO  ReportFactory:79 - Testcase Description : Validate Hamburger Menu Option Shop By Department
+2022-04-18 05:57:16 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:57:16 INFO  ReportFactory:102 - Test_Validate_HomePage PASSED 
+2022-04-18 05:57:16 INFO  ReportFactory:161 - New testcase :Test_Validate_HamburgerMenu
+2022-04-18 05:57:16 INFO  ReportFactory:79 - Testcase Description : Validate Hamburger Menu Option Shop By Department
+2022-04-18 05:57:19 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:57:19 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:57:20 INFO  ReportFactory:79 - WebElement Present : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:57:20 INFO  ReportFactory:79 - WebElement Present : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:57:20 INFO  ReportFactory:79 - WebElement Present : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:57:20 INFO  ReportFactory:79 - WebElement Present : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:57:21 INFO  ReportFactory:79 - WebElement Clicked : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:57:21 INFO  ReportFactory:79 - WebElement Clicked : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:57:22 INFO  ReportFactory:79 - WebElement Present : closeBtn [By.xpath: //body/div[@id='hmenu-container']/div[@id='hmenu-canvas-background']/div[1]]
+2022-04-18 05:57:22 INFO  ReportFactory:79 - WebElement Present : shopByDepartmentMenuTV [By.xpath: //div[contains(text(),'TV, Appliances, Electronics')]]
+2022-04-18 05:57:22 INFO  ReportFactory:79 - WebElement Clicked : shopByDepartmentMenuTV [By.xpath: //div[contains(text(),'TV, Appliances, Electronics')]]
+2022-04-18 05:57:22 INFO  ReportFactory:79 - WebElement Present : signInHeader [By.xpath: //b[contains(text(),'Hello, Sign in')]]
+2022-04-18 05:57:22 INFO  ReportFactory:102 - Test_Validate_HamburgerMenu PASSED 
+2022-04-18 05:57:22 INFO  ReportFactory:161 - New testcase :Test_Validate_ClickSignIn
+2022-04-18 05:57:22 INFO  ReportFactory:79 - Testcase Description : Validate Login Page Amazon Application
+2022-04-18 05:57:25 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:57:26 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:57:26 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:57:27 INFO  ReportFactory:79 - WebElement Clicked : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:57:27 INFO  ReportFactory:79 - Current Page title : Amazon Sign In matches with Amazon Sign In
+2022-04-18 05:57:27 INFO  ReportFactory:79 - WebElement Present : mobileEmailTxtBox [By.id: ap_email]
+2022-04-18 05:57:28 INFO  ReportFactory:79 - WebElement Present : continueButton [By.id: continue]
+2022-04-18 05:57:28 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:57:28 INFO  ReportFactory:79 - WebElement Present : needHelpLink [By.xpath: //span[contains(text(),'Need help?')]]
+2022-04-18 05:57:28 INFO  ReportFactory:102 - Test_Validate_ClickSignIn PASSED 
+2022-04-18 05:57:28 INFO  ReportFactory:161 - New testcase :Test_Validate_AmazonSignUp
+2022-04-18 05:57:28 INFO  ReportFactory:79 - Testcase Description : Validate Create Account Amazon Application
+2022-04-18 05:57:29 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:57:30 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:57:30 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:57:31 INFO  ReportFactory:79 - WebElement Clicked : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:57:31 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:57:31 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:57:32 INFO  ReportFactory:79 - WebElement Clicked : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:57:32 INFO  ReportFactory:79 - WebElement Present : yourNameTxtbox [By.id: ap_customer_name]
+2022-04-18 05:57:32 INFO  ReportFactory:79 - WebElement Present : passwordTxtbox [By.id: ap_password]
+2022-04-18 05:57:32 INFO  ReportFactory:79 - WebElement Present : continueButton [By.xpath: //input[@id='continue' and @type='submit']]
+2022-04-18 05:57:32 INFO  ReportFactory:102 - Test_Validate_AmazonSignUp PASSED 
+2022-04-18 05:57:32 INFO  ReportFactory:161 - New testcase :Test_Validate_AmazonSearch
+2022-04-18 05:57:32 INFO  ReportFactory:79 - Testcase Description : Validate Search keyword
+2022-04-18 05:57:33 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:57:34 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:57:35 INFO  ReportFactory:79 - WebElement Present : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:57:36 INFO  ReportFactory:79 - fossil watches for men latest enterted in WebElement : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:57:36 INFO  ReportFactory:79 - WebElement Present : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:57:39 INFO  ReportFactory:79 - Enter key pressed in WebElement : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:57:41 INFO  ReportFactory:79 - WebElement Present : searchedText [By.xpath: (//span[@class='rush-component']//span[contains(text(),'fossil watches for men latest')])[1]]
+2022-04-18 05:57:41 INFO  ReportFactory:102 - Test_Validate_AmazonSearch PASSED 
+2022-04-18 05:57:41 INFO  ReportFactory:147 - HTML report saved for browser : chrome at /Users/shekharkapil/Documents/Shekhar_SelGrid/Shekhar_SeleGrid/current_test_results/2022-04-18 05-56-59
+2022-04-18 05:58:22 ERROR ReportFactory:114 - Test_Validate_HamburgerMenu FAILED 
+2022-04-18 05:58:22 ERROR ReportFactory:117 - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //body/div[@id='hmenu-container']/div[@id='hmenu-canvas-background']/div[1] (tried for 60 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:81)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
+	at com.amazon.sele.selenium.keywords.SeleniumKeywords.explicitWait(SeleniumKeywords.java:163)
+	at com.amazon.sele.testcases.Test_AmazonApp.Test_Validate_HamburgerMenu(Test_AmazonApp.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //body/div[@id='hmenu-container']/div[@id='hmenu-canvas-background']/div[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'Shekhar4696.local', ip: 'fe80:0:0:0:14d5:8162:3894:39a6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_265'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:657)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:654)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	... 22 more
+
+2022-04-18 05:58:26 INFO  ReportFactory:161 - New testcase :Test_Validate_ClickSignIn
+2022-04-18 05:58:26 INFO  ReportFactory:79 - Testcase Description : Validate Login Page Amazon Application
+2022-04-18 05:58:28 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:58:30 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:58:30 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:58:31 INFO  ReportFactory:79 - WebElement Clicked : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:58:31 INFO  ReportFactory:79 - Current Page title : Amazon Sign In matches with Amazon Sign In
+2022-04-18 05:58:31 INFO  ReportFactory:79 - WebElement Present : mobileEmailTxtBox [By.id: ap_email]
+2022-04-18 05:58:31 INFO  ReportFactory:79 - WebElement Present : continueButton [By.id: continue]
+2022-04-18 05:58:31 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:58:31 INFO  ReportFactory:79 - WebElement Present : needHelpLink [By.xpath: //span[contains(text(),'Need help?')]]
+2022-04-18 05:58:31 INFO  ReportFactory:102 - Test_Validate_ClickSignIn PASSED 
+2022-04-18 05:58:31 INFO  ReportFactory:161 - New testcase :Test_Validate_AmazonSignUp
+2022-04-18 05:58:31 INFO  ReportFactory:79 - Testcase Description : Validate Create Account Amazon Application
+2022-04-18 05:58:32 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:58:35 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:58:35 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:58:36 INFO  ReportFactory:79 - WebElement Clicked : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:58:36 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:58:36 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:58:36 INFO  ReportFactory:79 - WebElement Clicked : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:58:36 INFO  ReportFactory:79 - WebElement Present : yourNameTxtbox [By.id: ap_customer_name]
+2022-04-18 05:58:36 INFO  ReportFactory:79 - WebElement Present : passwordTxtbox [By.id: ap_password]
+2022-04-18 05:58:36 INFO  ReportFactory:79 - WebElement Present : continueButton [By.xpath: //input[@id='continue' and @type='submit']]
+2022-04-18 05:58:36 INFO  ReportFactory:102 - Test_Validate_AmazonSignUp PASSED 
+2022-04-18 05:58:36 INFO  ReportFactory:161 - New testcase :Test_Validate_AmazonSearch
+2022-04-18 05:58:36 INFO  ReportFactory:79 - Testcase Description : Validate Search keyword
+2022-04-18 05:58:37 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:58:38 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:58:38 INFO  ReportFactory:79 - WebElement Present : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:58:38 INFO  ReportFactory:79 - fossil watches for men latest enterted in WebElement : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:58:38 INFO  ReportFactory:79 - WebElement Present : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:58:40 INFO  ReportFactory:79 - Enter key pressed in WebElement : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:58:40 INFO  ReportFactory:79 - WebElement Present : searchedText [By.xpath: (//span[@class='rush-component']//span[contains(text(),'fossil watches for men latest')])[1]]
+2022-04-18 05:58:40 INFO  ReportFactory:102 - Test_Validate_AmazonSearch PASSED 
+2022-04-18 05:58:40 INFO  ReportFactory:147 - HTML report saved for browser : chrome at /Users/shekharkapil/Documents/Shekhar_SelGrid/Shekhar_SeleGrid/current_test_results/2022-04-18 05-56-59
+2022-04-18 05:59:22 INFO  ReportFactory:64 - HTML report created : /Users/shekharkapil/Documents/Shekhar_SelGrid/Shekhar_SeleGrid/current_test_results/2022-04-18 05-59-22/chrome_report.html
+2022-04-18 05:59:22 INFO  ReportFactory:64 - HTML report created : /Users/shekharkapil/Documents/Shekhar_SelGrid/Shekhar_SeleGrid/current_test_results/2022-04-18 05-59-22/chrome_report.html
+2022-04-18 05:59:28 INFO  ReportFactory:161 - New testcase :Test_Validate_HomePage
+2022-04-18 05:59:28 INFO  ReportFactory:161 - New testcase :Test_Validate_HomePage
+2022-04-18 05:59:28 INFO  ReportFactory:79 - Testcase Description : Validate Amazon Application Home page
+2022-04-18 05:59:28 INFO  ReportFactory:79 - Testcase Description : Validate Amazon Application Home page
+2022-04-18 05:59:30 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:59:31 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:59:32 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[text()='Amazon Pay']]
+2022-04-18 05:59:32 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:32 INFO  ReportFactory:102 - Test_Validate_HomePage PASSED 
+2022-04-18 05:59:32 INFO  ReportFactory:161 - New testcase :Test_Validate_HamburgerMenu
+2022-04-18 05:59:32 INFO  ReportFactory:79 - Testcase Description : Validate Hamburger Menu Option Shop By Department
+2022-04-18 05:59:32 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[text()='Amazon Pay']]
+2022-04-18 05:59:32 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:32 INFO  ReportFactory:102 - Test_Validate_HomePage PASSED 
+2022-04-18 05:59:32 INFO  ReportFactory:161 - New testcase :Test_Validate_HamburgerMenu
+2022-04-18 05:59:32 INFO  ReportFactory:79 - Testcase Description : Validate Hamburger Menu Option Shop By Department
+2022-04-18 05:59:34 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:59:34 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:59:34 INFO  ReportFactory:79 - WebElement Present : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:59:37 INFO  ReportFactory:79 - WebElement Present : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:59:37 INFO  ReportFactory:79 - WebElement Present : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:59:37 INFO  ReportFactory:79 - WebElement Present : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:59:37 INFO  ReportFactory:79 - WebElement Clicked : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:59:37 INFO  ReportFactory:79 - WebElement Clicked : hamburgerMenu [By.id: nav-hamburger-menu]
+2022-04-18 05:59:38 INFO  ReportFactory:79 - WebElement Present : closeBtn [By.xpath: //body/div[@id='hmenu-container']/div[@id='hmenu-canvas-background']/div[1]]
+2022-04-18 05:59:38 INFO  ReportFactory:79 - WebElement Present : shopByDepartmentMenuTV [By.xpath: //div[contains(text(),'TV, Appliances, Electronics')]]
+2022-04-18 05:59:38 INFO  ReportFactory:79 - WebElement Clicked : shopByDepartmentMenuTV [By.xpath: //div[contains(text(),'TV, Appliances, Electronics')]]
+2022-04-18 05:59:38 INFO  ReportFactory:79 - WebElement Present : closeBtn [By.xpath: //body/div[@id='hmenu-container']/div[@id='hmenu-canvas-background']/div[1]]
+2022-04-18 05:59:38 INFO  ReportFactory:79 - WebElement Present : signInHeader [By.xpath: //b[contains(text(),'Hello, Sign in')]]
+2022-04-18 05:59:38 INFO  ReportFactory:79 - WebElement Present : shopByDepartmentMenuTV [By.xpath: //div[contains(text(),'TV, Appliances, Electronics')]]
+2022-04-18 05:59:38 INFO  ReportFactory:102 - Test_Validate_HamburgerMenu PASSED 
+2022-04-18 05:59:38 INFO  ReportFactory:161 - New testcase :Test_Validate_ClickSignIn
+2022-04-18 05:59:38 INFO  ReportFactory:79 - Testcase Description : Validate Login Page Amazon Application
+2022-04-18 05:59:38 INFO  ReportFactory:79 - WebElement Clicked : shopByDepartmentMenuTV [By.xpath: //div[contains(text(),'TV, Appliances, Electronics')]]
+2022-04-18 05:59:38 INFO  ReportFactory:79 - WebElement Present : signInHeader [By.xpath: //b[contains(text(),'Hello, Sign in')]]
+2022-04-18 05:59:38 INFO  ReportFactory:102 - Test_Validate_HamburgerMenu PASSED 
+2022-04-18 05:59:38 INFO  ReportFactory:161 - New testcase :Test_Validate_ClickSignIn
+2022-04-18 05:59:38 INFO  ReportFactory:79 - Testcase Description : Validate Login Page Amazon Application
+2022-04-18 05:59:40 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:59:40 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:59:40 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:40 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:41 INFO  ReportFactory:79 - WebElement Present : amazonPay [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:41 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:41 INFO  ReportFactory:79 - WebElement Clicked : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:42 INFO  ReportFactory:79 - Current Page title : Amazon Sign In matches with Amazon Sign In
+2022-04-18 05:59:42 INFO  ReportFactory:79 - WebElement Present : mobileEmailTxtBox [By.id: ap_email]
+2022-04-18 05:59:42 INFO  ReportFactory:79 - WebElement Present : continueButton [By.id: continue]
+2022-04-18 05:59:42 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:59:42 INFO  ReportFactory:79 - WebElement Present : needHelpLink [By.xpath: //span[contains(text(),'Need help?')]]
+2022-04-18 05:59:42 INFO  ReportFactory:102 - Test_Validate_ClickSignIn PASSED 
+2022-04-18 05:59:42 INFO  ReportFactory:161 - New testcase :Test_Validate_AmazonSignUp
+2022-04-18 05:59:42 INFO  ReportFactory:79 - Testcase Description : Validate Create Account Amazon Application
+2022-04-18 05:59:42 INFO  ReportFactory:79 - WebElement Clicked : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:42 INFO  ReportFactory:79 - Current Page title : Amazon Sign In matches with Amazon Sign In
+2022-04-18 05:59:42 INFO  ReportFactory:79 - WebElement Present : mobileEmailTxtBox [By.id: ap_email]
+2022-04-18 05:59:42 INFO  ReportFactory:79 - WebElement Present : continueButton [By.id: continue]
+2022-04-18 05:59:42 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:59:42 INFO  ReportFactory:79 - WebElement Present : needHelpLink [By.xpath: //span[contains(text(),'Need help?')]]
+2022-04-18 05:59:42 INFO  ReportFactory:102 - Test_Validate_ClickSignIn PASSED 
+2022-04-18 05:59:42 INFO  ReportFactory:161 - New testcase :Test_Validate_AmazonSignUp
+2022-04-18 05:59:42 INFO  ReportFactory:79 - Testcase Description : Validate Create Account Amazon Application
+2022-04-18 05:59:43 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:59:43 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:44 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:59:44 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:44 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:44 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:44 INFO  ReportFactory:79 - WebElement Clicked : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:44 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:59:44 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:59:45 INFO  ReportFactory:79 - WebElement Clicked : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:59:45 INFO  ReportFactory:79 - WebElement Present : yourNameTxtbox [By.id: ap_customer_name]
+2022-04-18 05:59:45 INFO  ReportFactory:79 - WebElement Present : passwordTxtbox [By.id: ap_password]
+2022-04-18 05:59:45 INFO  ReportFactory:79 - WebElement Present : continueButton [By.xpath: //input[@id='continue' and @type='submit']]
+2022-04-18 05:59:45 INFO  ReportFactory:102 - Test_Validate_AmazonSignUp PASSED 
+2022-04-18 05:59:45 INFO  ReportFactory:161 - New testcase :Test_Validate_AmazonSearch
+2022-04-18 05:59:45 INFO  ReportFactory:79 - Testcase Description : Validate Search keyword
+2022-04-18 05:59:45 INFO  ReportFactory:79 - WebElement Clicked : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:45 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:59:45 INFO  ReportFactory:79 - WebElement Present : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:59:46 INFO  ReportFactory:79 - WebElement Clicked : createAccountButton [By.id: createAccountSubmit]
+2022-04-18 05:59:46 INFO  ReportFactory:79 - WebElement Present : yourNameTxtbox [By.id: ap_customer_name]
+2022-04-18 05:59:46 INFO  ReportFactory:79 - WebElement Present : passwordTxtbox [By.id: ap_password]
+2022-04-18 05:59:46 INFO  ReportFactory:79 - WebElement Present : continueButton [By.xpath: //input[@id='continue' and @type='submit']]
+2022-04-18 05:59:46 INFO  ReportFactory:102 - Test_Validate_AmazonSignUp PASSED 
+2022-04-18 05:59:46 INFO  ReportFactory:161 - New testcase :Test_Validate_AmazonSearch
+2022-04-18 05:59:46 INFO  ReportFactory:79 - Testcase Description : Validate Search keyword
+2022-04-18 05:59:46 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:59:47 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:47 INFO  ReportFactory:79 - WebElement Present : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:59:47 INFO  ReportFactory:79 - Navigated to URL : https://www.amazon.in/
+2022-04-18 05:59:48 INFO  ReportFactory:79 - fossil watches for men latest enterted in WebElement : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:59:48 INFO  ReportFactory:79 - WebElement Present : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:59:48 INFO  ReportFactory:79 - WebElement Present : signButton [By.xpath: //a[@id='nav-link-accountList']]
+2022-04-18 05:59:48 INFO  ReportFactory:79 - WebElement Present : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:59:49 INFO  ReportFactory:79 - fossil watches for men latest enterted in WebElement : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:59:49 INFO  ReportFactory:79 - WebElement Present : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:59:50 INFO  ReportFactory:79 - Enter key pressed in WebElement : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:59:51 INFO  ReportFactory:79 - WebElement Present : searchedText [By.xpath: (//span[@class='rush-component']//span[contains(text(),'fossil watches for men latest')])[1]]
+2022-04-18 05:59:51 INFO  ReportFactory:102 - Test_Validate_AmazonSearch PASSED 
+2022-04-18 05:59:51 INFO  ReportFactory:147 - HTML report saved for browser : chrome at /Users/shekharkapil/Documents/Shekhar_SelGrid/Shekhar_SeleGrid/current_test_results/2022-04-18 05-59-22
+2022-04-18 05:59:52 INFO  ReportFactory:79 - Enter key pressed in WebElement : searchBox [By.id: twotabsearchtextbox]
+2022-04-18 05:59:53 INFO  ReportFactory:79 - WebElement Present : searchedText [By.xpath: (//span[@class='rush-component']//span[contains(text(),'fossil watches for men latest')])[1]]
+2022-04-18 05:59:53 INFO  ReportFactory:102 - Test_Validate_AmazonSearch PASSED 
+2022-04-18 05:59:53 INFO  ReportFactory:147 - HTML report saved for browser : chrome at /Users/shekharkapil/Documents/Shekhar_SelGrid/Shekhar_SeleGrid/current_test_results/2022-04-18 05-59-22
