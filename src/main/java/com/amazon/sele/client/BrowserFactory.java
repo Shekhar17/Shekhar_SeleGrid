@@ -54,8 +54,7 @@ public class BrowserFactory {
 
 		
 		if (browserType.equalsIgnoreCase("firefox")) {
-			setFireFoxDriver();
-			
+			setFireFoxDriver();	
 			return DesiredCapabilities.firefox();
 		}
 		else if (browserType.equalsIgnoreCase("chrome")) {
