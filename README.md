@@ -15,6 +15,7 @@
 12. Capture screen shots for failed testcases.
 13. Implicit and Explicit waits are considered for Windows to Load and Webelement to load.
 14. Maven is configured in such a way that will run different testNG.xml provided at run time.
+15. Also you can run the project by creating docker containers
 
 
 ## Pre-requisite
@@ -36,8 +37,7 @@ Note : selenium-server-standalone-3.141.59.jar works with Chrome Version 74 and 
 
 		
 ## To view Report 
-1. Go to the root directory under `<Project Directory>/Current_test_results/<yyyy-mm-dd hh-mm-ss>/<browser>_report.html`
-2. All past reports are saved under `SeleniumProject/Arhived_test_results/<yyyy-mm-dd hh-mm-ss>.zip/<browser>_report.html` 
+1. Go to the root directory under `Shekhar_SeleGrid/current_test_results/<yyyy-mm-dd hh-mm-ss>/<browser>_report.html`
+2. All past reports are saved under `Shekhar_SeleGrid/arhived_test_results/<yyyy-mm-dd hh-mm-ss>.zip/<browser>_report.html` 
 
 
-Note: Test cases are available in `SeleniumProject\src\test\resources\Testcases.xlsx` for your reference.
