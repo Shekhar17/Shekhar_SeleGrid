@@ -2,8 +2,13 @@ package com.amazon.sele.testcasebase;
 
 import java.io.File;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.ITestResult;
 import org.testng.SkipException;
@@ -21,6 +26,7 @@ import com.amazon.sele.client.BrowserFactory;
 
 import com.amazon.sele.common.util.Utilities;
 import com.amazon.sele.customAssertion.CustomAssertion;
+import com.amazon.sele.customException.ElementNotFound;
 import com.amazon.sele.propertyReader.PropertyReader;
 import com.amazon.sele.reporterLogger.ReportFactory;
 import com.amazon.sele.selenium.keywords.SeleniumKeywords;
@@ -144,5 +150,21 @@ public class TestCasesBase {
 			ReportFactory.LOGGER.info(e.getMessage());
 			e.printStackTrace();
 		}
+	}
+	
+	/*
+	 * Function Description - Wait for element to load project Created by - Shekhar Kapil
+	 * Created on - 19th April Modified by Modified on
+	 */
+	public void switchToNewWindow() throws ElementNotFound {
+		
+		Set<String> ids = driver.getWindowHandles();
+	    Iterator<String> iterator = ids.iterator();
+	    String parentID = iterator.next();
+	    System.out.println("Parent WIn id " + parentID);
+	    String childID = iterator.next();
+	    System.out.println("child win id " + childID);
+	    driver.switchTo().window(childID);
+
 	}
 }

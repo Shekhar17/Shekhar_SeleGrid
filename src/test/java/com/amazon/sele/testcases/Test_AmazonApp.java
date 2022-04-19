@@ -21,15 +21,26 @@ public class Test_AmazonApp extends TestCasesBase {
 		assertTrue(keywords.verifyElementPresence("amazonPay", AmazonHomePage.signButton));
 	}
 
-	@Test(priority = 1, description = "Validate Hamburger Menu Option Shop By Department", groups = { "Home" })
+	@Test(priority = 1, description = "Validate Hamburger Menu Option Shop By Department and Validate Item Details", groups = { "Home" })
 	public void Test_Validate_HamburgerMenu() throws ElementNotFound, ElementNotClickable, InterruptedException {
 		assertTrue(keywords.verifyElementPresence("hamburgerMenu", AmazonHomePage.hamburgerMenu));
 		keywords.click("hamburgerMenu", AmazonHomePage.hamburgerMenu);
 		keywords.explicitWait(AmazonHomePage.closeBtn);
 		assertTrue(keywords.verifyElementPresence("closeBtn", AmazonHomePage.closeBtn));
 		keywords.click("shopByDepartmentMenuTV", AmazonHomePage.shopByDepartmentMenuTV);
+		keywords.explicitWait(AmazonHomePage.televisonsMenuTV);
+		keywords.click("televisonsMenuTV", AmazonHomePage.televisonsMenuTV);
 		keywords.waitForWindowToLoad();
-		assertTrue(keywords.verifyElementPresence("signInHeader", AmazonHomePage.signInHeader));
+		keywords.click("filterBySamsungCheck", AmazonHomePage.filterBySamsungCheck);
+		keywords.waitForWindowToLoad();
+		keywords.click("sortByDropdown", AmazonHomePage.sortByDropdown);
+		keywords.waitForWindowToLoad();
+		keywords.click("dropDownHighToLowOption", AmazonHomePage.dropDownHighToLowOption);
+		keywords.waitForWindowToLoad();
+		keywords.click("secondTelevisonResult", AmazonHomePage.secondTelevisonResult);
+		switchToNewWindow();
+		keywords.explicitWait(AmazonHomePage.aboutItemDetails);
+		keywords.getElementText("aboutItemDetails",AmazonHomePage.aboutItemDetails);
 
 	}
 

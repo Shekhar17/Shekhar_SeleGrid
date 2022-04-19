@@ -208,8 +208,8 @@ public class SeleniumKeywords {
 	}
 
 	/*
-	 * Function Description - Wait for window to load project Created by - Shekhar
-	 * Kapil Created on - 17th April Modified by Modified on
+	 * Function Description - Wait for window to load project Created by - Shekhar Kapil
+	 * Created on - 17th April Modified by Modified on
 	 */
 	public void waitForWindowToLoad() {
 		ExpectedCondition<Boolean> pageLoadCondition = new ExpectedCondition<Boolean>() {
@@ -222,12 +222,31 @@ public class SeleniumKeywords {
 	}
 
 	/*
-	 * Function Description - Wait for element to load project Created by - Shekhar
-	 * Kapil Created on - 17th April Modified by Modified on
+	 * Function Description - Wait for element to load project Created by - Shekhar Kapil
+	 * Created on - 17th April Modified by Modified on
 	 */
 	public void waitForElement(By by) {
 		WebDriverWait wait = new WebDriverWait(BrowserFactory.getInstance().getDriver(), waitTime);
 		wait.until(ExpectedConditions.elementToBeClickable(by));
 	}
+	
+	/*
+	 * Function Description - Wait for element to load project Created by - Shekhar Kapil
+	 * Created on - 19th April Modified by Modified on
+	 */
+	public String getElementText(String nameofObject, By selector) throws ElementNotFound {
+		String text;
+
+		try {
+			getElement(selector);
+			text = we.getText();
+			ReportFactory.getInstance().info("Text of element is : " + text);
+			return text;
+		} catch (Exception e) {
+			throw new ElementNotFound(nameofObject + " [" + selector + "]");
+		}
+
+	}
+	
 
 }
